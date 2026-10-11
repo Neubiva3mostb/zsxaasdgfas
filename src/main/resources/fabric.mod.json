@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "rubyskin",
+  "version": "${version}",
+  "name": "Ruby Skin",
+  "description": "Replaces the player model with a custom Blockbench model.",
+  "authors": ["Neubiva3mostb"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.ruby.skin.RubySkinClient"]
+  },
+  "mixins": ["rubyskin.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
